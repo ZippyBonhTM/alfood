@@ -42,7 +42,17 @@
     ]
   },
   "devDependencies": {
+    "json5": "^2.2.3",
+    "loader-utils": "^1.4.2",
+    "nth-check": "^2.1.1",
+    "postcss": "^8.5.3",
     "sass": "^1.49.0",
     "typescript-plugin-css-modules": "^3.4.0"
+  },
+  "overrides": {
+    "json5": "$json5",
+    "loader-utils": "$loader-utils",
+    "nth-check": "$nth-check",
+    "postcss": "$postcss"
   }
 }
